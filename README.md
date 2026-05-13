@@ -27,7 +27,7 @@
 | Project | Description |
 |---|---|
 | [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimized C++ hot path |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 operating system — bootloader → kernel → userspace |
+| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 operating system - bootloader → kernel → userspace |
 | [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded storage engine in Rust with WAL, MVCC and LSM-based persistence |
 | [**DotForge**](https://github.com/mozaika228/dotforge) | Experimental CLR-style runtime with custom GC and JIT infrastructure |
 | [**KernelPulse**](https://github.com/mozaika228/kernelpulse) | Low-level kernel monitoring and eBPF-based observability tooling |
