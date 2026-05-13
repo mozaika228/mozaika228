@@ -1,133 +1,37 @@
-<h1 align="center"> Mozaika </h1>
+# Danila — Mozaika
 
-<p align="center">
-  Building AI systems, runtimes, infrastructure and experimental technologies.
-</p>
+Building autonomous systems, infrastructure and runtimes — from scratch.
 
 ---
 
-## 🧠 About Me
-
-I develop experimental and large-scale software projects focused on:
-
-- Artificial Intelligence
-- Autonomous AI Agents
-- Runtime & VM architecture
-- Network systems
-- Distributed infrastructure
-- High-performance frameworks
-- Low-level engineering
-- Developer tooling
-
-Most of my projects are built from scratch as research-oriented systems designed to explore complex architectures and advanced concepts.
+> Student from Kazakhstan. I build large-scale research software
+> because I want to understand how things actually work at the lowest level.
 
 ---
 
-# 🚀 Main Projects
+## Core focus
 
-## 🤖 AI & Autonomous Systems
-
-### [Hephaestus](https://github.com/mozaika228/hephaestus)
-Advanced AI platform with animated interface, multi-model support, terminal-style interaction and local AI integration.
-
-### [SteelFlow](https://github.com/mozaika228/steelflow)
-High-performance framework for running local LLM pipelines, RAG systems and multi-agent architectures.
-
-### [Self-Evolving-AIAgent](https://github.com/mozaika228/self-evolving-aiagent)
-Experimental autonomous AI agent capable of adaptive behavior and self-improvement concepts.
-
-### [AgroAgent](https://github.com/mozaika228/agroagent)
-AI-driven agricultural assistant and automation platform.
-
-### [CodebaseAgent](https://github.com/mozaika228/codebaseagent)
-AI agent for repository analysis, understanding and automation.
+`autonomous AI agents` · `VM & runtime architecture` · `distributed systems` · `low-level engineering` · `developer tooling`
 
 ---
 
-# ⚡ Infrastructure & Core Systems
+## Selected projects
 
-### [HeliosNet](https://github.com/mozaika228/heliosnet)
-Distributed networking and infrastructure project focused on scalable communication systems.
+| Project | What it does |
+|---|---|
+| [**Hephaestus**](https://github.com/mozaika228/hephaestus) | AI platform with multi-model support, animated terminal UI and local inference |
+| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-throughput framework for local LLM pipelines, RAG and multi-agent flows |
+| [**HeliosNet**](https://github.com/mozaika228/heliosnet) | Distributed networking layer built for scalable, fault-tolerant communication |
+| [**Self-Evolving AIAgent**](https://github.com/mozaika228/self-evolving-aiagent) | Agent capable of adaptive behavior and self-modification at runtime |
+| [**VortexJS**](https://github.com/mozaika228/vortexjs) | JavaScript runtime experiments — custom execution environments |
+| [**BareCore**](https://github.com/mozaika228/barecore) | Minimalistic runtime core — systems architecture at the lowest level |
 
-### [PulseEngine](https://github.com/mozaika228/pulseengine)
-Core engine architecture for scalable systems and services.
-
-### [KernelPulse](https://github.com/mozaika228/kernelpulse)
-Low-level monitoring and kernel interaction experiments.
-
-### [BareCore](https://github.com/mozaika228/barecore)
-Minimalistic core runtime and systems architecture experiments.
-
-### [NetForge](https://github.com/mozaika228/netforge)
-Networking toolkit and infrastructure utilities.
+→ [All repositories](https://github.com/mozaika228?tab=repositories)
 
 ---
 
-# 🖥 Runtime, VM & Languages
-
-### [VortexJS](https://github.com/mozaika228/vortexjs)
-JavaScript runtime / framework experiments.
-
-### [PyForge](https://github.com/mozaika228/pyforge)
-Python development utilities and framework tooling.
-
-### [DotForge](https://github.com/mozaika228/dotforge)
-Cross-platform tooling and framework experiments.
+![Streak](https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true)
 
 ---
 
-# 🛠 Utilities & Platforms
-
-### [TasqueManager](https://github.com/mozaika228/tasquemanager)
-Task management and productivity platform.
-
-### [SyncPad](https://github.com/mozaika228/syncpad)
-Real-time synchronization and collaborative workspace platform.
-
-### [TinyDatabase](https://github.com/mozaika228/tinydatabase)
-Lightweight database implementation.
-
-### [SimpleComputer](https://github.com/mozaika228/simplecomputer)
-Educational computer architecture and simulation project.
-
----
-
-# 🎮 Experimental Projects
-
-### [EmpireAnts](https://github.com/mozaika228/empireants)
-Experimental simulation/game systems project.
-
-### [RhinestoneEyes](https://github.com/mozaika228/rhinestoneeyes)
-Creative experimental software project.
-
-### [Pazuzu](https://github.com/mozaika228/pazuzu)
-Dark experimental AI/system concept project.
-
-### [ZeroOverhead](https://github.com/mozaika228/zerooverhead)
-Performance-focused systems engineering experiments.
-
----
-
-# 🧩 Technologies
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,nodejs,react,vue,fastapi,flask,docker,linux,git,tensorflow,pytorch" />
-</p>
-
----
-
-# 📊 GitHub Analytics
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true" />
-</p>
-
-# 🌌 Vision
-
-> Building experimental technologies, autonomous systems and next-generation infrastructure.
-
----
-
-<p align="center">
-  ⚡ Research • AI • Infrastructure • Runtime Systems • Experimental Engineering
-</p>
+`Python` `C/C++` `TypeScript` `Node.js` `Docker` `Linux` `PyTorch`
