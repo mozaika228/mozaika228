@@ -1,31 +1,31 @@
-# Danila (mozaika228)
+# I build things from scratch.
 
-**Building deep, from-scratch systems at the intersection of low-level engineering and artificial intelligence.**
-
----
-
-> CS student from Kazakhstan, 19 y.o.
-> I don't build things because I have to — I build them because
-> I want to understand how they truly work at the lowest level.
+*Not wrappers. Not tutorials. Real systems - down to the metal.*
 
 ---
 
-## Core interests
-
-`Autonomous AI Systems` · `Virtual Machines & Runtimes` · `Low-Level Systems` · `High-Performance Infrastructure` · `Distributed Computing`
+> 19 y.o. CS student from Kazakhstan.  
+> While most people my age learn to use frameworks, I'd rather build them.  
+> Every project here starts with a blank file and the same question: *how does this actually work?*
 
 ---
 
-## Selected projects
+## Core Interests
+
+`Virtual Machines & Runtimes` · `Low-Level Systems` · `Autonomous AI Agents` · `High-Performance Infrastructure` · `Distributed Systems`
+
+---
+
+## Selected Projects
 
 | Project | Description |
-|---|---|
-| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimised C++ hot path |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 OS from scratch — bootloader → kernel → userspace |
-| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded KV store in Rust with WAL, LSM-tree, MVCC and PITR |
-| [**DotForge**](https://github.com/mozaika228/dotforge) | From-scratch .NET CLR-style runtime — custom GC and JIT scaffold |
-| [**HeliosNet**](https://github.com/mozaika228/heliosnet) | Real-time edge computer vision system |
-| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-performance self-hosted ML inference & agent framework |
+|--------|-------------|
+| **[PulseEngine](https://github.com/mozaika228/pulseengine)** | Low-latency HFT order matching engine with optimized C++ hot path |
+| **[BareCore](https://github.com/mozaika228/barecore)** | Minimal x86_64 OS from scratch — bootloader → kernel → userspace |
+| **[TinyDatabase](https://github.com/mozaika228/tinydatabase)** | Embedded KV store in Rust with WAL, LSM-tree, MVCC and PITR |
+| **[DotForge](https://github.com/mozaika228/dotforge)** | From-scratch .NET CLR-style runtime with custom GC and JIT scaffold |
+| **[HeliosNet](https://github.com/mozaika228/heliosnet)** | Real-time edge computer vision system |
+| **[SteelFlow](https://github.com/mozaika228/steelflow)** | High-performance self-hosted ML inference & agent framework |
 
 → [All 25 repositories](https://github.com/mozaika228?tab=repositories)
 
@@ -37,5 +37,9 @@
 
 ## Technologies
 
-**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java
+**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java  
 **Strong**: Python · Go · C# · TypeScript
+
+---
+
+*The code does the talking.*
