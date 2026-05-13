@@ -4,7 +4,7 @@
 
 ---
 
-> CS student, 19, Kazakhstan.  
+> CS student, 20, Kazakhstan.  
 > Most of my projects begin with the same question:  
 > *how does this actually work under the hood?*
 >
@@ -27,20 +27,22 @@
 | Project | Description |
 |---|---|
 | [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimized C++ hot path |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 OS — bootloader → kernel → userspace |
+| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 operating system — bootloader → kernel → userspace |
 | [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded storage engine in Rust with WAL, MVCC and LSM-based persistence |
 | [**DotForge**](https://github.com/mozaika228/dotforge) | Experimental CLR-style runtime with custom GC and JIT infrastructure |
 | [**KernelPulse**](https://github.com/mozaika228/kernelpulse) | Low-level kernel monitoring and eBPF-based observability tooling |
 | [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-performance self-hosted ML inference & agent framework |
 
-→ [All 25 repositories](https://github.com/mozaika228?tab=repositories)
+→ [All repositories](https://github.com/mozaika228?tab=repositories)
 
 ---
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mozaika228&show_icons=true&theme=tokyonight&hide_border=true"/>
+## GitHub Analytics
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mozaika228&layout=compact&theme=tokyonight&hide_border=true"/>
+<p align="center">
+  <img height="180em" src="https://github-readme-stats-tan-phi-23.vercel.app/api?username=mozaika228&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
+
+  <img height="180em" src="https://github-readme-stats-tan-phi-23.vercel.app/api/top-langs/?username=mozaika228&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
@@ -51,10 +53,25 @@
 
 ## Technologies
 
-**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java
+### Deep Focus
+Rust · C · C++ · x86 Assembly · eBPF · Java
 
-**Strong**: Python · Go · C# · TypeScript
+### Strong
+Python · Go · C# · TypeScript
 
 ---
 
-*Curious? Open a repository. The code does the talking.*
+## Current Focus
+
+- Runtime & VM architectures
+- Database internals
+- Kernel observability with eBPF
+- Distributed synchronization systems
+- Autonomous AI infrastructure
+- High-performance computing systems
+
+---
+
+<p align="center">
+  <i>Curious? Open a repository. The code does the talking.</i>
+</p>
