@@ -1,37 +1,41 @@
-# Danila — Mozaika
+# Danila (mozaika228)
 
-Building autonomous systems, infrastructure and runtimes — from scratch.
-
----
-
-> Student from Kazakhstan. I build large-scale research software
-> because I want to understand how things actually work at the lowest level.
+**Building deep, from-scratch systems at the intersection of low-level engineering and artificial intelligence.**
 
 ---
 
-## Core focus
+> CS student from Kazakhstan, 19 y.o.
+> I don't build things because I have to — I build them because
+> I want to understand how they truly work at the lowest level.
 
-`autonomous AI agents` · `VM & runtime architecture` · `distributed systems` · `low-level engineering` · `developer tooling`
+---
+
+## Core interests
+
+`Autonomous AI Systems` · `Virtual Machines & Runtimes` · `Low-Level Systems` · `High-Performance Infrastructure` · `Distributed Computing`
 
 ---
 
 ## Selected projects
 
-| Project | What it does |
+| Project | Description |
 |---|---|
-| [**Hephaestus**](https://github.com/mozaika228/hephaestus) | AI platform with multi-model support, animated terminal UI and local inference |
-| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-throughput framework for local LLM pipelines, RAG and multi-agent flows |
-| [**HeliosNet**](https://github.com/mozaika228/heliosnet) | Distributed networking layer built for scalable, fault-tolerant communication |
-| [**Self-Evolving AIAgent**](https://github.com/mozaika228/self-evolving-aiagent) | Agent capable of adaptive behavior and self-modification at runtime |
-| [**VortexJS**](https://github.com/mozaika228/vortexjs) | JavaScript runtime experiments — custom execution environments |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimalistic runtime core — systems architecture at the lowest level |
+| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimised C++ hot path |
+| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 OS from scratch — bootloader → kernel → userspace |
+| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded KV store in Rust with WAL, LSM-tree, MVCC and PITR |
+| [**DotForge**](https://github.com/mozaika228/dotforge) | From-scratch .NET CLR-style runtime — custom GC and JIT scaffold |
+| [**HeliosNet**](https://github.com/mozaika228/heliosnet) | Real-time edge computer vision system |
+| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-performance self-hosted ML inference & agent framework |
 
-→ [All repositories](https://github.com/mozaika228?tab=repositories)
-
----
-
-![Streak](https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true)
+→ [All 25 repositories](https://github.com/mozaika228?tab=repositories)
 
 ---
 
-`Python` `C/C++` `TypeScript` `Node.js` `Docker` `Linux` `PyTorch`
+![GitHub Streak](https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true)
+
+---
+
+## Technologies
+
+**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java
+**Strong**: Python · Go · C# · TypeScript
