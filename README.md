@@ -4,7 +4,7 @@
 
 ---
 
-> CS student, 20, Kazakhstan.  
+> CS student, Kazakhstan.  
 > Most of my projects begin with the same question:  
 > *how does this actually work under the hood?*
 >
