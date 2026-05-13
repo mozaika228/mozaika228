@@ -1,12 +1,18 @@
-# I build things from scratch.
+# I build systems from scratch.
 
-*Not wrappers. Not tutorials. Real systems - down to the metal.*
+*Operating systems, runtimes, databases, distributed infrastructure and autonomous AI systems.*
 
 ---
 
-> 20 y.o. CS student from Kazakhstan.  
-> While most people my age learn to use frameworks, I'd rather build them.  
-> Every project here starts with a blank file and the same question: *how does this actually work?*
+> CS student, 19, Kazakhstan.  
+> Most of my projects begin with the same question:  
+> *how does this actually work under the hood?*
+>
+> So I build it myself.
+
+<p align="center">
+  systems programming • runtimes • kernels • distributed infrastructure
+</p>
 
 ---
 
@@ -19,27 +25,36 @@
 ## Selected Projects
 
 | Project | Description |
-|--------|-------------|
-| **[PulseEngine](https://github.com/mozaika228/pulseengine)** | Low-latency HFT order matching engine with optimized C++ hot path |
-| **[BareCore](https://github.com/mozaika228/barecore)** | Minimal x86_64 OS from scratch - bootloader → kernel → userspace |
-| **[TinyDatabase](https://github.com/mozaika228/tinydatabase)** | Embedded KV store in Rust with WAL, LSM-tree, MVCC and PITR |
-| **[DotForge](https://github.com/mozaika228/dotforge)** | From-scratch .NET CLR-style runtime with custom GC and JIT scaffold |
-| **[HeliosNet](https://github.com/mozaika228/heliosnet)** | Real-time edge computer vision system |
-| **[SteelFlow](https://github.com/mozaika228/steelflow)** | High-performance self-hosted ML inference & agent framework |
+|---|---|
+| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimized C++ hot path |
+| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 OS — bootloader → kernel → userspace |
+| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded storage engine in Rust with WAL, MVCC and LSM-based persistence |
+| [**DotForge**](https://github.com/mozaika228/dotforge) | Experimental CLR-style runtime with custom GC and JIT infrastructure |
+| [**KernelPulse**](https://github.com/mozaika228/kernelpulse) | Low-level kernel monitoring and eBPF-based observability tooling |
+| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-performance self-hosted ML inference & agent framework |
 
 → [All 25 repositories](https://github.com/mozaika228?tab=repositories)
 
 ---
 
-![GitHub Streak](https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mozaika228&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mozaika228&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true"/>
+</p>
 
 ---
 
 ## Technologies
 
-**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java  
+**Deep focus**: Rust · C · C++ · x86 Assembly · eBPF · Java
+
 **Strong**: Python · Go · C# · TypeScript
 
 ---
 
-*The code does the talking.*
+*Curious? Open a repository. The code does the talking.*
