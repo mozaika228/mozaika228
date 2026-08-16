@@ -35,7 +35,7 @@ Then I try to build a working version from first principles.
 | Project                                                        | What it is                                                                    |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | [**PulseEngine**](https://github.com/mozaika228/pulseengine)   | Low-latency C++ HFT order matching engine built around an optimized hot path  |
-| [**BareCore**](https://github.com/mozaika228/barecore)         | Minimal x86_64 operating system — from bootloader and kernel to userspace     |
+| [**BareCore**](https://github.com/mozaika228/barecore)         | Minimal x86_64 operating system - from bootloader and kernel to userspace     |
 | [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Rust storage engine featuring WAL, MVCC and LSM-based persistence             |
 | [**DotForge**](https://github.com/mozaika228/dotforge)         | Experimental CLR-style runtime with custom GC and JIT infrastructure          |
 | [**KernelPulse**](https://github.com/mozaika228/kernelpulse)   | Low-level kernel monitoring and eBPF-based observability tooling              |
