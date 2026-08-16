@@ -37,20 +37,6 @@
 
 ---
 
-## GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats-tan-phi-23.vercel.app/api?username=mozaika228&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
-
-  <img height="180em" src="https://github-readme-stats-tan-phi-23.vercel.app/api/top-langs/?username=mozaika228&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mozaika228&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
 ## Technologies
 
 ### Deep Focus
