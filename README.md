@@ -1,63 +1,103 @@
 # I build systems from scratch.
 
-*Operating systems, runtimes, databases, distributed infrastructure and autonomous AI systems.*
+I’m a CS student from Kazakhstan focused on understanding how software works **under the hood** — from CPU instructions and memory management to runtimes, storage engines, distributed systems, and autonomous AI infrastructure.
 
----
+I don't just use abstractions.
 
-> CS student, Kazakhstan.  
-> Most of my projects begin with the same question:  
-> *how does this actually work under the hood?*
->
-> So I build it myself.
+**I build them.**
 
 <p align="center">
-  systems programming • runtimes • kernels • distributed infrastructure
+  <code>systems programming</code> · <code>runtimes</code> · <code>kernels</code> · <code>databases</code> · <code>distributed systems</code>
 </p>
 
 ---
 
-## Core Interests
+## What I Build
 
-`Virtual Machines & Runtimes` · `Low-Level Systems` · `Autonomous AI Agents` · `High-Performance Infrastructure` · `Distributed Systems`
+My projects usually start with a simple question:
+
+> **How does this actually work under the hood?**
+
+Then I try to build a working version from first principles.
+
+* Operating systems and kernel components
+* Virtual machines and language runtimes
+* Storage engines and databases
+* High-performance C++ systems
+* Distributed infrastructure
+* Kernel observability and eBPF tooling
+* Autonomous AI infrastructure
 
 ---
 
 ## Selected Projects
 
-| Project | Description |
-|---|---|
-| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with optimized C++ hot path |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 operating system - bootloader → kernel → userspace |
-| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Embedded storage engine in Rust with WAL, MVCC and LSM-based persistence |
-| [**DotForge**](https://github.com/mozaika228/dotforge) | Experimental CLR-style runtime with custom GC and JIT infrastructure |
-| [**KernelPulse**](https://github.com/mozaika228/kernelpulse) | Low-level kernel monitoring and eBPF-based observability tooling |
-| [**SteelFlow**](https://github.com/mozaika228/steelflow) | High-performance self-hosted ML inference & agent framework |
+| Project                                                        | What it is                                                                    |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [**PulseEngine**](https://github.com/mozaika228/pulseengine)   | Low-latency C++ HFT order matching engine built around an optimized hot path  |
+| [**BareCore**](https://github.com/mozaika228/barecore)         | Minimal x86_64 operating system — from bootloader and kernel to userspace     |
+| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Rust storage engine featuring WAL, MVCC and LSM-based persistence             |
+| [**DotForge**](https://github.com/mozaika228/dotforge)         | Experimental CLR-style runtime with custom GC and JIT infrastructure          |
+| [**KernelPulse**](https://github.com/mozaika228/kernelpulse)   | Low-level kernel monitoring and eBPF-based observability tooling              |
+| [**SteelFlow**](https://github.com/mozaika228/steelflow)       | Self-hosted high-performance ML inference and autonomous agent infrastructure |
 
-→ [All repositories](https://github.com/mozaika228?tab=repositories)
+→ [Explore all repositories](https://github.com/mozaika228?tab=repositories)
 
 ---
 
-## Technologies
+## Areas of Focus
 
-### Deep Focus
-Rust · C · C++ · x86 Assembly · eBPF · Java
+### Systems
 
-### Strong
-Python · Go · C# · TypeScript
+`C` · `C++` · `Rust` · `x86_64` · `Assembly` · `eBPF`
+
+Operating systems, memory, concurrency, runtimes, performance and low-level infrastructure.
+
+### Infrastructure
+
+`Go` · `Rust` · `C++`
+
+Distributed systems, storage engines, synchronization, networking and high-performance services.
+
+### AI Systems
+
+`Python` · `C++` · `TypeScript`
+
+Inference infrastructure, autonomous agents, model serving and AI-native systems.
 
 ---
 
 ## Current Focus
 
-- Runtime & VM architectures
-- Database internals
-- Kernel observability with eBPF
-- Distributed synchronization systems
-- Autonomous AI infrastructure
-- High-performance computing systems
+Currently exploring:
+
+* Runtime & VM architecture
+* Garbage collectors and JIT compilation
+* Database internals and storage engines
+* Kernel observability with eBPF
+* Distributed synchronization
+* High-performance computing
+* Autonomous AI infrastructure
+
+---
+
+## Engineering Philosophy
+
+I prefer understanding systems from the bottom up.
+
+Instead of starting with:
+
+> *Which framework should I use?*
+
+I usually start with:
+
+> *What is the framework actually doing?*
+
+That leads me toward projects involving **kernels, runtimes, databases, compilers, networking and distributed infrastructure**.
 
 ---
 
 <p align="center">
+  <b>Build from first principles.</b><br>
   <i>Curious? Open a repository. The code does the talking.</i>
 </p>
