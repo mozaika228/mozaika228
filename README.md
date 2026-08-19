@@ -1,6 +1,6 @@
 # I build systems from scratch.
 
-I’m a CS student from Kazakhstan focused on understanding how software works **under the hood** — from CPU instructions and memory management to runtimes, storage engines, distributed systems, and autonomous AI infrastructure.
+I’m a CS student from Kazakhstan focused on understanding how software works **under the hood** - from CPU instructions and memory management to runtimes, storage engines, distributed systems, and autonomous AI infrastructure.
 
 I don't just use abstractions.
 
