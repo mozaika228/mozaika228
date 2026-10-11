@@ -1,38 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1280" height="320" viewBox="0 0 1280 320">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
   <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#39FF88" stroke-opacity=".07"/>
-    </pattern>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#101713"/>
-      <stop offset="1" stop-color="#080B09"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101813"/>
+      <stop offset="55%" stop-color="#090E0B"/>
+      <stop offset="100%" stop-color="#050806"/>
     </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14251A"/>
+      <stop offset="100%" stop-color="#09110C"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39FF88" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF88" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#39FF88" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="24" height="24"
+             patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24"
+            fill="none" stroke="#39FF88" stroke-opacity=".055"/>
+    </pattern>
+
+    <pattern id="microgrid" width="6" height="6"
+             patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".6"
+              fill="#39FF88" fill-opacity=".16"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="clip">
+      <rect width="1280" height="320" rx="10"/>
+    </clipPath>
   </defs>
-  <rect width="1280" height="320" rx="12" fill="url(#bg)"/>
-  <rect width="1280" height="320" rx="12" fill="url(#grid)"/>
-  <g fill="none" stroke="#39FF88" stroke-opacity=".3" stroke-width="1.5">
-    <path d="M800 0V45H880V90H960"/>
-    <path d="M1280 75H1160V115H1090V155H1020"/>
-    <path d="M1280 225H1190V190H1140V160"/>
-    <path d="M850 320V275H925V235H1000"/>
-    <path d="M1060 0V35H1100V65"/>
-    <rect x="1020" y="125" width="110" height="70" rx="5" stroke-opacity=".55"/>
-    <path d="M1035 140H1115M1035 155H1090M1035 170H1105"/>
-  </g>
-  <g fill="#39FF88" fill-opacity=".65">
-    <circle cx="960" cy="90" r="3"/>
-    <circle cx="1020" cy="155" r="3"/>
-    <circle cx="1000" cy="235" r="3"/>
-    <circle cx="1100" cy="65" r="3"/>
-  </g>
-  <g font-family="monospace">
-    <text x="64" y="65" fill="#39FF88" font-size="13" letter-spacing="3">SYSTEMS / ENGINEERING</text>
-    <text x="64" y="135" fill="#39FF88" font-size="43" font-weight="700">I BUILD SYSTEMS</text>
-    <text x="64" y="185" fill="#39FF88" font-size="43" font-weight="700">FROM SCRATCH.</text>
-    <text x="66" y="226" fill="#91A79A" font-size="13" letter-spacing="1.4">KERNELS · RUNTIMES · STORAGE · DISTRIBUTED SYSTEMS</text>
-    <path d="M64 254H420" stroke="#39FF88" stroke-opacity=".5"/>
-    <text x="64" y="280" fill="#718579" font-size="12">UNDERSTAND THE MACHINE, BUILD THE ABSTRACTION.</text>
-    <text x="1198" y="292" fill="#39FF88" font-size="12">0x01</text>
+
+  <g clip-path="url(#clip)">
+    <!-- Background -->
+    <rect width="1280" height="320" fill="url(#background)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <rect x="760" width="520" height="320" fill="url(#microgrid)"
+          opacity=".35"/>
+
+    <!-- Ambient technical traces -->
+    <g fill="none" stroke="#39FF88" stroke-width="1">
+      <path d="M0 38H28V70H65" stroke-opacity=".3"/>
+      <path d="M0 260H34V236H58" stroke-opacity=".2"/>
+      <path d="M725 0V28H760V48H800" stroke-opacity=".3"/>
+      <path d="M1280 45H1240V74H1214" stroke-opacity=".3"/>
+      <path d="M1280 268H1244V245H1216" stroke-opacity=".25"/>
+      <path d="M756 320V293H790" stroke-opacity=".25"/>
+    </g>
+
+    <!-- Top system strip -->
+    <rect x="48" y="25" width="1184" height="1"
+          fill="#39FF88" fill-opacity=".22"/>
+
+    <g font-family="monospace">
+      <text x="50" y="17" font-size="10"
+            letter-spacing="2.5" fill="#65A77C">
+        MOZAIKA / SYSTEMS ENGINEERING
+      </text>
+
+      <text x="1228" y="17" font-size="10"
+            text-anchor="end" fill="#52705C">
+        PROFILE_001
+      </text>
+    </g>
+
+    <!-- Main typography -->
+    <g font-family="monospace">
+      <text x="52" y="77" font-size="12"
+            letter-spacing="3" fill="#39FF88">
+        // FIRST PRINCIPLES
+      </text>
+
+      <text x="48" y="137" font-size="43"
+            font-weight="700" letter-spacing="-2"
+            fill="#E7F5EB">
+        I BUILD SYSTEMS
+      </text>
+
+      <text x="48" y="187" font-size="43"
+            font-weight="700" letter-spacing="-2"
+            fill="#39FF88">
+        FROM SCRATCH.
+      </text>
+
+      <rect x="51" y="207" width="440" height="2"
+            fill="url(#accent)"/>
+
+      <text x="51" y="233" font-size="11"
+            letter-spacing="1.1" fill="#A0B6A6">
+        KERNELS / RUNTIMES / STORAGE
+      </text>
+
+      <text x="51" y="251" font-size="11"
+            letter-spacing="1.1" fill="#A0B6A6">
+        DISTRIBUTED SYSTEMS / INFRASTRUCTURE
+      </text>
+
+      <text x="51" y="290" font-size="11"
+            fill="#668271">
+        root@mozaika:~$ build --from-first-principles
+      </text>
+
+      <rect x="355" y="280" width="7" height="13"
+            fill="#39FF88" filter="url(#glow)"/>
+    </g>
+
+    <!-- Right-side system architecture panel -->
+    <g>
+      <rect x="800" y="47" width="384" height="224" rx="5"
+            fill="url(#panel)" stroke="#39FF88"
+            stroke-opacity=".3"/>
+
+      <path d="M800 77H1184" stroke="#39FF88"
+            stroke-opacity=".22"/>
+
+      <g font-family="monospace" font-size="10">
+        <circle cx="818" cy="62" r="3" fill="#39FF88"/>
+        <text x="830" y="65" fill="#8EB89A">
+          SYSTEM MAP
+        </text>
+        <text x="1167" y="65" text-anchor="end"
+              fill="#52705C">
+          ARCH / 0x01
+        </text>
+      </g>
+
+      <!-- CPU block -->
+      <rect x="936" y="101" width="112" height="70" rx="4"
+            fill="#102719" stroke="#39FF88"
+            stroke-opacity=".8"/>
+
+      <rect x="949" y="114" width="86" height="44" rx="2"
+            fill="none" stroke="#39FF88"
+            stroke-opacity=".35"/>
+
+      <g stroke="#39FF88" stroke-opacity=".65"
+         stroke-width="1.5">
+        <path d="M954 96V101 M970 96V101 M986 96V101
+                 M1002 96V101 M1018 96V101 M1034 96V101"/>
+        <path d="M954 171V176 M970 171V176 M986 171V176
+                 M1002 171V176 M1018 171V176 M1034 171V176"/>
+        <path d="M931 111H936 M931 127H936 M931 143H936
+                 M931 159H936"/>
+        <path d="M1048 111H1053 M1048 127H1053
+                 M1048 143H1053 M1048 159H1053"/>
+      </g>
+
+      <g font-family="monospace" text-anchor="middle">
+        <text x="992" y="132" font-size="11"
+              fill="#39FF88">CORE_01</text>
+        <text x="992" y="148" font-size="9"
+              fill="#86A992">EXECUTION</text>
+      </g>
+
+      <!-- Memory and runtime modules -->
+      <g font-family="monospace" font-size="10">
+        <rect x="823" y="111" width="85" height="36" rx="3"
+              fill="#0B1710" stroke="#3C8153"
+              stroke-opacity=".85"/>
+        <text x="865.5" y="125" text-anchor="middle"
+              fill="#A1C8AC">MEMORY</text>
+        <text x="865.5" y="138" text-anchor="middle"
+              fill="#527E60" font-size="8">ALLOC / MAP</text>
+
+        <rect x="1076" y="111" width="85" height="36" rx="3"
+              fill="#0B1710" stroke="#3C8153"
+              stroke-opacity=".85"/>
+        <text x="1118.5" y="125" text-anchor="middle"
+              fill="#A1C8AC">RUNTIME</text>
+        <text x="1118.5" y="138" text-anchor="middle"
+              fill="#527E60" font-size="8">VM / EXEC</text>
+      </g>
+
+      <!-- Connected architecture -->
+      <g fill="none" stroke="#39FF88" stroke-width="1.2"
+         stroke-opacity=".7">
+        <path d="M908 129H928V136H936"/>
+        <path d="M1048 136H1062V129H1076"/>
+        <path d="M992 176V190H865V201"/>
+        <path d="M992 190H1118V201"/>
+      </g>
+
+      <g fill="#39FF88">
+        <circle cx="928" cy="136" r="2"/>
+        <circle cx="1062" cy="136" r="2"/>
+        <circle cx="992" cy="190" r="2"/>
+      </g>
+
+      <g font-family="monospace" font-size="9">
+        <rect x="823" y="201" width="85" height="30" rx="2"
+              fill="#102117" stroke="#315F40"/>
+        <text x="865.5" y="219" text-anchor="middle"
+              fill="#9BC5A7">STORAGE</text>
+
+        <rect x="1076" y="201" width="85" height="30" rx="2"
+              fill="#102117" stroke="#315F40"/>
+        <text x="1118.5" y="219" text-anchor="middle"
+              fill="#9BC5A7">NETWORK</text>
+
+        <text x="819" y="252" fill="#54745F">
+          LAYERS CONNECTED
+        </text>
+        <text x="1166" y="252" text-anchor="end"
+              fill="#39FF88">[ ACTIVE ]</text>
+      </g>
+    </g>
+
+    <!-- Bottom status bar -->
+    <path d="M48 305H1232" stroke="#39FF88"
+          stroke-opacity=".25"/>
+
+    <g font-family="monospace" font-size="9">
+      <text x="50" y="316" fill="#52705C">
+        UNDERSTAND THE MACHINE, BUILD THE ABSTRACTION.
+      </text>
+
+      <circle cx="1110" cy="313" r="3"
+              fill="#39FF88" filter="url(#glow)"/>
+
+      <text x="1120" y="316" fill="#75A987">
+        SYSTEM ONLINE
+      </text>
+
+      <text x="1230" y="316" text-anchor="end"
+            fill="#39FF88">0x01</text>
+    </g>
   </g>
 </svg>
