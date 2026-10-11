@@ -1,0 +1,38 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#39FF88" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101713"/>
+      <stop offset="1" stop-color="#080B09"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="12" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="12" fill="url(#grid)"/>
+  <g fill="none" stroke="#39FF88" stroke-opacity=".3" stroke-width="1.5">
+    <path d="M800 0V45H880V90H960"/>
+    <path d="M1280 75H1160V115H1090V155H1020"/>
+    <path d="M1280 225H1190V190H1140V160"/>
+    <path d="M850 320V275H925V235H1000"/>
+    <path d="M1060 0V35H1100V65"/>
+    <rect x="1020" y="125" width="110" height="70" rx="5" stroke-opacity=".55"/>
+    <path d="M1035 140H1115M1035 155H1090M1035 170H1105"/>
+  </g>
+  <g fill="#39FF88" fill-opacity=".65">
+    <circle cx="960" cy="90" r="3"/>
+    <circle cx="1020" cy="155" r="3"/>
+    <circle cx="1000" cy="235" r="3"/>
+    <circle cx="1100" cy="65" r="3"/>
+  </g>
+  <g font-family="monospace">
+    <text x="64" y="65" fill="#39FF88" font-size="13" letter-spacing="3">SYSTEMS / ENGINEERING</text>
+    <text x="64" y="135" fill="#39FF88" font-size="43" font-weight="700">I BUILD SYSTEMS</text>
+    <text x="64" y="185" fill="#39FF88" font-size="43" font-weight="700">FROM SCRATCH.</text>
+    <text x="66" y="226" fill="#91A79A" font-size="13" letter-spacing="1.4">KERNELS · RUNTIMES · STORAGE · DISTRIBUTED SYSTEMS</text>
+    <path d="M64 254H420" stroke="#39FF88" stroke-opacity=".5"/>
+    <text x="64" y="280" fill="#718579" font-size="12">UNDERSTAND THE MACHINE, BUILD THE ABSTRACTION.</text>
+    <text x="1198" y="292" fill="#39FF88" font-size="12">0x01</text>
+  </g>
+</svg>
