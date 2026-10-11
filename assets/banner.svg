@@ -42,6 +42,16 @@
     <clipPath id="clip">
       <rect width="1280" height="320" rx="10"/>
     </clipPath>
+
+    <clipPath id="panelClip">
+      <rect x="800" y="47" width="384" height="224" rx="5"/>
+    </clipPath>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39FF88" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#39FF88" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#39FF88" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <g clip-path="url(#clip)">
@@ -115,7 +125,10 @@
       </text>
 
       <rect x="355" y="280" width="7" height="13"
-            fill="#39FF88" filter="url(#glow)"/>
+            fill="#39FF88" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0;1"
+                 dur="1.1s" repeatCount="indefinite"/>
+      </rect>
     </g>
 
     <!-- Right-side system architecture panel -->
@@ -124,11 +137,23 @@
             fill="url(#panel)" stroke="#39FF88"
             stroke-opacity=".3"/>
 
+      <g clip-path="url(#panelClip)" pointer-events="none">
+        <rect x="800" y="78" width="52" height="172"
+              fill="url(#scan)" opacity=".8">
+          <animate attributeName="x"
+                   values="800;1132;800"
+                   dur="9s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
       <path d="M800 77H1184" stroke="#39FF88"
             stroke-opacity=".22"/>
 
       <g font-family="monospace" font-size="10">
-        <circle cx="818" cy="62" r="3" fill="#39FF88"/>
+        <circle cx="818" cy="62" r="3" fill="#39FF88">
+          <animate attributeName="opacity" values=".45;1;.45"
+                   dur="2.4s" repeatCount="indefinite"/>
+        </circle>
         <text x="830" y="65" fill="#8EB89A">
           SYSTEM MAP
         </text>
@@ -195,9 +220,18 @@
       </g>
 
       <g fill="#39FF88">
-        <circle cx="928" cy="136" r="2"/>
-        <circle cx="1062" cy="136" r="2"/>
-        <circle cx="992" cy="190" r="2"/>
+        <circle cx="928" cy="136" r="2">
+          <animate attributeName="opacity" values=".35;1;.35"
+                   dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="1062" cy="136" r="2">
+          <animate attributeName="opacity" values="1;.35;1"
+                   dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="992" cy="190" r="2">
+          <animate attributeName="opacity" values=".35;1;.35"
+                   dur="1.8s" begin=".6s" repeatCount="indefinite"/>
+        </circle>
       </g>
 
       <g font-family="monospace" font-size="9">
@@ -229,7 +263,10 @@
       </text>
 
       <circle cx="1110" cy="313" r="3"
-              fill="#39FF88" filter="url(#glow)"/>
+              fill="#39FF88" filter="url(#glow)">
+        <animate attributeName="opacity" values=".45;1;.45"
+                 dur="2s" repeatCount="indefinite"/>
+      </circle>
 
       <text x="1120" y="316" fill="#75A987">
         SYSTEM ONLINE
