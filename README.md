@@ -64,7 +64,7 @@ Then I try to build a working version from first principles.
 
 | Project | What it is | Technologies |
 |:--|:--|:--|
-| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine built around an optimized hot path | `C++` |
+| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine built around an optimized hot path | `Java` · `C++` |
 | [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 operating system, from bootloader and kernel to userspace | `C` · `Assembly` |
 | [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Rust storage engine featuring WAL, MVCC and LSM-based persistence | `Rust` |
 | [**DotForge**](https://github.com/mozaika228/dotforge) | Experimental CLR-style runtime with custom garbage collection and JIT infrastructure | `.NET` · `Runtime` |
