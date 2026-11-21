@@ -1,4 +1,4 @@
-<p align="center">
+ <p align="center">
   <img src="assets/banner.svg"
        alt="I build systems from scratch"
        width="100%">
@@ -6,15 +6,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/SYSTEMS-ENGINEERING-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Systems Engineering" />
-  <img src="https://img.shields.io/badge/LOW--LEVEL-FOCUS-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Low-Level Focus" />
+  <img src="https://img.shields.io/badge/AI-SYSTEMS-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="AI Systems" />
   <img src="https://img.shields.io/badge/FROM-SCRATCH-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Built from scratch" />
 </p>
 
 <p align="center">
   <code>systems programming</code> ·
-  <code>runtimes</code> ·
-  <code>kernels</code> ·
-  <code>databases</code> ·
+  <code>AI infrastructure</code> ·
+  <code>programming languages</code> ·
+  <code>computer architecture</code> ·
   <code>distributed systems</code>
 </p>
 
@@ -22,34 +22,45 @@
 
 ## `01 / ABOUT`
 
-I'm a CS student from Kazakhstan interested in how software works **under the hood**: from CPU instructions and memory management to runtimes, storage engines, distributed systems, and AI infrastructure.
+I'm a CS student from Kazakhstan interested in building software that goes beyond the surface.
 
-I learn by building the underlying systems myself, then testing and refining them from first principles.
+My interests span systems engineering, artificial intelligence, programming language design, computer architecture, backend infrastructure, and high-performance computing.
+
+I learn by building real projects, understanding their internal mechanisms, and turning technical ideas into working software.
+
+I believe the best way to understand a system is to build one.
 
 ---
 
 ## `02 / SELECTED PROJECTS`
 
 <p align="center">
-  <a href="https://github.com/mozaika228/pulseengine">
-    <img src="https://img.shields.io/badge/PulseEngine-C++%20%7C%20HFT-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="PulseEngine" />
+  <a href="https://github.com/mozaika228/hephaestus">
+    <img src="https://img.shields.io/badge/Hephaestus-MULTI--PLATFORM%20AI-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Hephaestus" />
   </a>
-  <a href="https://github.com/mozaika228/barecore">
-    <img src="https://img.shields.io/badge/BareCore-x86__64%20%7C%20OS-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="BareCore" />
+  <a href="https://github.com/mozaika228/agroagent">
+    <img src="https://img.shields.io/badge/AgroAgent-AI%20%7C%20AGRICULTURE-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="AgroAgent" />
   </a>
-  <a href="https://github.com/mozaika228/tinydatabase">
-    <img src="https://img.shields.io/badge/TinyDatabase-Rust%20%7C%20Storage-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="TinyDatabase" />
+  <a href="https://github.com/mozaika228/danilium">
+    <img src="https://img.shields.io/badge/Danilium-PROGRAMMING%20LANGUAGE-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Danilium" />
   </a>
 </p>
 
+### AI & Intelligent Systems
+
 | Project | What it is | Technologies |
 |:--|:--|:--|
-| [**PulseEngine**](https://github.com/mozaika228/pulseengine) | Low-latency HFT order matching engine with an optimized hot path | `Java` · `C++` |
-| [**BareCore**](https://github.com/mozaika228/barecore) | Minimal x86_64 OS, from bootloader and kernel to userspace | `C` · `Assembly` |
-| [**TinyDatabase**](https://github.com/mozaika228/tinydatabase) | Rust storage engine with WAL, MVCC, and LSM-based persistence | `Rust` |
-| [**DotForge**](https://github.com/mozaika228/dotforge) | CLR-style runtime experiments with garbage collection and JIT infrastructure | `.NET` |
-| [**KernelPulse**](https://github.com/mozaika228/kernelpulse) | Kernel monitoring and eBPF-based observability tools | `Linux` · `eBPF` |
-| [**SteelFlow**](https://github.com/mozaika228/steelflow) | Self-hosted ML inference and autonomous-agent infrastructure | `Python` · `C++` |
+| [**Hephaestus**](https://github.com/mozaika228/hephaestus) | Multi-platform AI assistant with chat, file analysis, planning, integrations, and multi-agent orchestration | `TypeScript` · `Python` · `C++` · `Flutter` |
+| [**AgroAgent**](https://github.com/mozaika228/agroagent) | AI-agent platform for agriculture in West Kazakhstan, featuring hierarchical agents and hybrid RAG | `Python` · `LangGraph` · `FastAPI` · `Next.js` |
+| [**OmniSight**](https://github.com/mozaika228/omnisight) | AI-powered video understanding platform with object detection, speech recognition, and semantic search | `Python` · `YOLO` · `Whisper` · `CLIP` |
+
+### Software Engineering & Computer Architecture
+
+| Project | What it is | Technologies |
+|:--|:--|:--|
+| [**Danilium**](https://github.com/mozaika228/danilium) | General-purpose programming language with a custom lexer, parser, AST, type checker, and interpreter | `Python` |
+| [**SimpleComputer**](https://github.com/mozaika228/simplecomputer) | Three-level computer architecture model with a high-level language, assembler, and machine-code emulator | `C` |
+| [**TasqueManager**](https://github.com/mozaika228/tasquemanager) | Fullstack task management system with JWT authentication, Kanban, notifications, and observability | `Java` · `Spring Boot` · `React` |
 
 <p align="center">
   <a href="https://github.com/mozaika228?tab=repositories">
@@ -62,7 +73,7 @@ I learn by building the underlying systems myself, then testing and refining the
 ## `03 / TOOLKIT`
 
 <p>
-  <strong>Systems & low-level</strong><br />
+  <strong>Systems & Low-Level</strong><br />
   <img src="https://img.shields.io/badge/C-0B0F0D?style=flat-square&logo=c&logoColor=39FF88" alt="C" />
   <img src="https://img.shields.io/badge/C++-0B0F0D?style=flat-square&logo=cplusplus&logoColor=39FF88" alt="C++" />
   <img src="https://img.shields.io/badge/Rust-0B0F0D?style=flat-square&logo=rust&logoColor=39FF88" alt="Rust" />
@@ -71,28 +82,42 @@ I learn by building the underlying systems myself, then testing and refining the
 </p>
 
 <p>
-  <strong>Infrastructure</strong><br />
-  <img src="https://img.shields.io/badge/Go-0B0F0D?style=flat-square&logo=go&logoColor=39FF88" alt="Go" />
-  <img src="https://img.shields.io/badge/Networking-0B0F0D?style=flat-square&logo=wireshark&logoColor=39FF88" alt="Networking" />
-  <img src="https://img.shields.io/badge/eBPF-0B0F0D?style=flat-square&logo=linux&logoColor=39FF88" alt="eBPF" />
+  <strong>Backend & Application Development</strong><br />
+  <img src="https://img.shields.io/badge/Java-0B0F0D?style=flat-square&logo=openjdk&logoColor=39FF88" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-0B0F0D?style=flat-square&logo=python&logoColor=39FF88" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-0B0F0D?style=flat-square&logo=typescript&logoColor=39FF88" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-0B0F0D?style=flat-square&logo=javascript&logoColor=39FF88" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-0B0F0D?style=flat-square&logo=springboot&logoColor=39FF88" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/FastAPI-0B0F0D?style=flat-square&logo=fastapi&logoColor=39FF88" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/React-0B0F0D?style=flat-square&logo=react&logoColor=39FF88" alt="React" />
 </p>
 
 <p>
-  <strong>AI systems</strong><br />
-  <img src="https://img.shields.io/badge/Python-0B0F0D?style=flat-square&logo=python&logoColor=39FF88" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-0B0F0D?style=flat-square&logo=typescript&logoColor=39FF88" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/ML%20Infrastructure-0B0F0D?style=flat-square&logo=pytorch&logoColor=39FF88" alt="ML Infrastructure" />
+  <strong>AI & Machine Learning</strong><br />
+  <img src="https://img.shields.io/badge/LangGraph-0B0F0D?style=flat-square&logo=langchain&logoColor=39FF88" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/Ollama-0B0F0D?style=flat-square&logo=ollama&logoColor=39FF88" alt="Ollama" />
+  <img src="https://img.shields.io/badge/PyTorch-0B0F0D?style=flat-square&logo=pytorch&logoColor=39FF88" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-0B0F0D?style=flat-square&logo=opencv&logoColor=39FF88" alt="Computer Vision" />
+</p>
+
+<p>
+  <strong>Infrastructure & Data</strong><br />
+  <img src="https://img.shields.io/badge/Docker-0B0F0D?style=flat-square&logo=docker&logoColor=39FF88" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0B0F0D?style=flat-square&logo=postgresql&logoColor=39FF88" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-0B0F0D?style=flat-square&logo=redis&logoColor=39FF88" alt="Redis" />
+  <img src="https://img.shields.io/badge/Prometheus-0B0F0D?style=flat-square&logo=prometheus&logoColor=39FF88" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-0B0F0D?style=flat-square&logo=grafana&logoColor=39FF88" alt="Grafana" />
 </p>
 
 ---
 
 ## `04 / CURRENT FOCUS`
 
-- Runtime and VM architecture, garbage collection, and JIT compilation
-- Database internals, storage correctness, and crash recovery
-- Kernel observability with eBPF
-- Distributed synchronization and high-performance computing
-- Autonomous AI infrastructure
+- **AI Engineering:** multi-agent orchestration, RAG pipelines, model integration, and intelligent applications.
+- **Programming Languages:** lexer/parser design, type systems, interpreters, bytecode, and virtual machines.
+- **Computer Architecture:** CPU instructions, memory models, assembly, and emulation.
+- **Backend Engineering:** distributed services, authentication, databases, and API architecture.
+- **Infrastructure:** observability, monitoring, reliability, and deployment.
 
 I focus on understanding the mechanisms, implementing core components, and validating their behavior through testing and experimentation.
 
@@ -100,19 +125,20 @@ I focus on understanding the mechanisms, implementing core components, and valid
 
 ## `05 / HOW I WORK`
 
-I start with **how a system works**, then build a small, working version to make the design concrete.
+I approach engineering through first principles: understand the problem, design the architecture, implement the solution, and validate the result.
 
-- **First principles:** understand the mechanism behind the abstraction.
-- **Correctness:** reason about invariants, edge cases, failures, and recovery.
+- **First principles:** understand the mechanisms behind abstractions.
+- **Architecture:** design systems with clear responsibilities and boundaries.
+- **Correctness:** consider edge cases, failures, security, and reliability.
 - **Performance:** measure bottlenecks before optimizing.
-- **Iteration:** build, test, inspect, and refine.
+- **Iteration:** build, test, inspect, and improve.
 
 <p align="center">
   <img src="https://img.shields.io/badge/01-LEARN-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Learn" />
   →
-  <img src="https://img.shields.io/badge/02-BUILD-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Build" />
+  <img src="https://img.shields.io/badge/02-DESIGN-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Design" />
   →
-  <img src="https://img.shields.io/badge/03-MEASURE-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Measure" />
+  <img src="https://img.shields.io/badge/03-BUILD-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Build" />
   →
   <img src="https://img.shields.io/badge/04-IMPROVE-0B0F0D?style=for-the-badge&labelColor=0B0F0D&color=39FF88" alt="Improve" />
 </p>
